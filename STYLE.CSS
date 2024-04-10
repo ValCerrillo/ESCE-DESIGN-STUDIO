@@ -14,15 +14,68 @@
 * {
   background-color: var(--branding-color-pink);
 }
-h3,
-h5,
-p {
+div {
+  text-align: center;
+}
+.QUOTE {
+  font-family: Nourd;
+}
+.MOTTOSEC {
+  display: inline;
+  align-content: center;
+  font-family: Nourd;
+}
+.OURMOTTOTITTLE {
+  font-family: Nourd;
+  font-size: 67pt;
+}
+.OURMOTTOSUB {
+  font-family: Nourd;
+  font-size: 32pt;
+}
+.OURMOTTOTEXT {
   font-family: Poppins;
+  font-size: 16pt;
 }
-h1,
-h2 {
-  font-family: Nourd;
+.MENU a {
+  display: inline;
+  align-content: center;
 }
-.OURMOTTO {
+.YAKU {
   font-family: Nourd;
+  font-size: 94pt;
+}
+.LOOKINGFOR {
+  font-family: Nourd;
+  font-size: 53pt;
+}
+.LOOKINGFORTEXT {
+  font-family: Poppins;
+  font-size: 16pt;
+}
+.LETS {
+  font-family: Nourd;
+  font-size: 53pt;
+}
+.bluebutton {
+  font-family: Poppins;
+  font-size: 26pt;
+  background-color: #3b61a9;
+  color: white;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 5px 8px;
+}
+.orangebutton {
+  font-family: Poppins;
+  font-size: 26pt;
+  background-color: #f18d1f;
+  color: white;
+}
+.outlinebutton {
+  font-family: Poppins;
+  font-size: 26pt;
+  outline-color: #f18d1f;
+  outline-width: 2px;
+  color: white;
 }
