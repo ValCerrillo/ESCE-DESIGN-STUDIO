@@ -19,63 +19,131 @@ div {
 }
 .QUOTE {
   font-family: Nourd;
+  font-size: 50pt;
+  color: whitesmoke;
+  background-image: url(./img/WE\ MAKE\ THE\ WORLD\ .png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  height: 500px;
 }
-.MOTTOSEC {
-  display: inline;
-  align-content: center;
+.OURMOTTO {
+  display: inline-block;
   font-family: Nourd;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  vertical-align: middle;
+}
+.MOTTODESCRIPTION {
+  display: inline-block;
+  width: 500px;
+  padding-left: 20%;
+  vertical-align: middle;
 }
 .OURMOTTOTITTLE {
   font-family: Nourd;
-  font-size: 67pt;
+  font-size: 30pt;
+  padding-left: 200px;
 }
 .OURMOTTOSUB {
   font-family: Nourd;
-  font-size: 32pt;
+  font-size: 20pt;
 }
 .OURMOTTOTEXT {
   font-family: Poppins;
-  font-size: 16pt;
+  font-size: 13pt;
+  text-align: justify;
+}
+.MENU {
+  display: inline;
+  position: absolute;
+  top: 6%;
+  padding-left: 73%;
 }
 .MENU a {
   display: inline;
   align-content: center;
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 12pt;
+  padding: 9px;
+}
+.MENUICON {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  z-index: 100;
+}
+.MENUICON img {
+  width: 65px;
+  height: 65px;
 }
 .YAKU {
   font-family: Nourd;
-  font-size: 94pt;
+  font-size: 50pt;
+  background-color: #3b61a9;
+  height: 450px;
+  color: whitesmoke;
+}
+.YAKUTEXT {
+  padding-top: 60px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.WAYLF {
+  display: inline-block;
+  font-family: Nourd;
+  font-size: 30pt;
+  padding-left: 200px;
+  padding-top: 150px;
 }
 .LOOKINGFOR {
   font-family: Nourd;
-  font-size: 53pt;
+  font-size: 30pt;
 }
 .LOOKINGFORTEXT {
   font-family: Poppins;
-  font-size: 16pt;
+  font-size: 12pt;
+  display: inline-block;
+  width: 500px;
+  padding-left: 20%;
+  text-align: justify;
 }
 .LETS {
   font-family: Nourd;
-  font-size: 53pt;
+  font-size: 35pt;
+  padding-top: 150px;
 }
 .bluebutton {
   font-family: Poppins;
-  font-size: 26pt;
+  font-size: 20pt;
   background-color: #3b61a9;
   color: white;
-  border-radius: 8px;
+  border-radius: 20px;
   border-width: 0px;
-  padding: 5px 8px;
+  padding: 5px 15px;
 }
 .orangebutton {
   font-family: Poppins;
-  font-size: 26pt;
+  font-size: 20pt;
   background-color: #f18d1f;
   color: white;
+  border-radius: 20px;
+  border-width: 0px;
+  padding: 5px 15px;
+  z-index: 100;
 }
 .outlinebutton {
   font-family: Poppins;
-  font-size: 26pt;
-  outline-color: #f18d1f;
-  outline-width: 2px;
+  font-size: 20pt;
+  border-color: #f18d1f;
+  border-width: 2px;
   color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  border-style: solid;
+}
+.PIE {
+  align-items: center;
+  padding: 10%;
 }
